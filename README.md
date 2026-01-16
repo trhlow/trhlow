@@ -41,12 +41,9 @@ Collision detection (wall & self)
 Score system and game state management
 ➡️ Used as academic project & portfolio piece.
 
-🎂 Birthday Interactive Web Project
-
-👉 (repo link nếu bạn còn giữ)
 A small interactive web project with animations and storytelling, built to practice front-end logic and UI interaction.
 
-(Có thể bổ sung thêm 1–2 project nữa khi bạn làm tiếp)
+//
 
 📌 What I’m Learning Now
 
@@ -60,4 +57,4 @@ Preparing projects for internship-level production quality
 
 GitHub: https://github.com/trhlow
 
-Email: (bạn tự điền email chuyên nghiệp)
+Email: thlong190705@gmail.com
