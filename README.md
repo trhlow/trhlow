@@ -1,7 +1,7 @@
 ## 👋 Hi, I’m Trần Hoàng Long
 
-🎮 **Unity / Game Developer (Intern–Fresher)**  
-📚 Information Technology student, focusing on **Game Development with Unity & C#**
+**Unity / Game Developer (Intern–Fresher)**  
+Information Technology student, focusing on **Game Development with Unity & C#**
 
 I enjoy building small-to-medium Unity projects to practice **gameplay mechanics, player control, collision handling, and clean code structure**.
 
