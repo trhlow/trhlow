@@ -1,5 +1,5 @@
 ## Hi there 👋
-<!--
+
 **trhlow/trhlow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 ![pic2](https://github.com/user-attachments/assets/477c8a63-f4c9-4012-adc7-bd23f9079041)
 
@@ -13,4 +13,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
