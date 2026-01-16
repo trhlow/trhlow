@@ -1,15 +1,63 @@
-## Hi there 👋
+👋 Hi there, I’m Trần Hoàng Long (trhlow)
 
-**trhlow/trhlow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-![pic2](https://github.com/user-attachments/assets/477c8a63-f4c9-4012-adc7-bd23f9079041)
+🎮 Unity / Game Developer (Intern–Fresher level)
+📚 Information Technology student — focusing on Game Development & C#
 
-Here are some ideas to get you started:
+I enjoy building small-to-medium Unity projects to practice gameplay logic, player control, collision handling, and clean code structure.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+🛠️ Tech Stack
+
+Game Engine: Unity (2D)
+
+Language: C#
+
+Game Concepts:
+
+Game loop
+
+Grid-based movement
+
+Collision & physics (2D)
+
+State management (Playing / Game Over / Restart)
+
+Tools: Git, GitHub, Unity Hub
+
+Graphics: Basic 2D, ShaderLab / HLSL (fundamental usage)
+
+🚀 Featured Projects
+🐍 Snake Game (Unity / C#)
+
+👉 https://github.com/trhlow/CSN-TranHoangLong-110123025-SnakeGame
+
+A classic Snake Game built with Unity, focusing on:
+
+Grid-based movement
+
+Player input handling
+
+Collision detection (wall & self)
+
+Score system and game state management
+➡️ Used as academic project & portfolio piece.
+
+🎂 Birthday Interactive Web Project
+
+👉 (repo link nếu bạn còn giữ)
+A small interactive web project with animations and storytelling, built to practice front-end logic and UI interaction.
+
+(Có thể bổ sung thêm 1–2 project nữa khi bạn làm tiếp)
+
+📌 What I’m Learning Now
+
+Better Unity architecture (separating gameplay, UI, managers)
+
+Writing cleaner & more maintainable C# scripts
+
+Preparing projects for internship-level production quality
+
+📫 Contact
+
+GitHub: https://github.com/trhlow
+
+Email: (bạn tự điền email chuyên nghiệp)
