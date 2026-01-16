@@ -1,6 +1,4 @@
 ## Hi there 👋
-![pic1](https://github.com/user-attachments/assets/5e5ac239-2d70-4f1d-af8b-e8d5506b4f16)
-
 <!--
 **trhlow/trhlow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 ![pic2](https://github.com/user-attachments/assets/477c8a63-f4c9-4012-adc7-bd23f9079041)
