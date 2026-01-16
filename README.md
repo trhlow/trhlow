@@ -8,8 +8,8 @@ I enjoy building small-to-medium Unity projects to practice **gameplay mechanics
 ---
 
 ## 🛠️ Tech Stack
-- **Game Engine:** Unity (2D)
-- **Programming Language:** C#
+- **Game Engine:** Unity (2D)(https://img.shields.io/badge/Unity-000000?logo=unity&logoColor=white)
+- **Programming Language:** C#(https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 - **Game Development Concepts:**
   - Game loop
   - Grid-based movement
@@ -17,7 +17,7 @@ I enjoy building small-to-medium Unity projects to practice **gameplay mechanics
   - Collision & physics (2D)
   - Game state management
 - **Graphics:** Basic 2D, ShaderLab / HLSL
-- **Tools:** Git, GitHub, Unity Hub
+- **Tools:** Git(https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white), GitHub, Unity Hub 
 
 ---
 
@@ -37,5 +37,5 @@ Used as an academic project and portfolio piece for Unity Intern/Fresher roles.
 ---
 
 ## 🇻🇳 Giới thiệu (Tiếng Việt)
-Mình là sinh viên CNTT, định hướng **Unity / Game Developer Intern – Fresher**.  
-Hiện mình tập trung xây dựng các dự án Unity nhỏ để rèn luyện **gameplay logic, xử lý va chạm, quản lý trạng thái game và viết code C# gọn gàng, dễ bảo trì**.
+Tôi là sinh viên CNTT, định hướng Unity/Game Developer Intern – Fresher. 
+Hiện tập trung xây dựng các project Unity nhỏ để rèn gameplay logic, xử lý va chạm và tổ chức code C# gọn gàng.
