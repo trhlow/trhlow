@@ -1,24 +1,23 @@
 ## 👋 Hi, I'm Trần Hoàng Long
 
-**Full-stack Developer | Game Developer (Unity/C#) | Backend Engineer**  
-Information Technology student with hands-on experience in **Game Development, Web Applications, and RESTful API design**.
+**Software Developer | Full-stack Engineer | Backend Developer**  
+Information Technology student specializing in **Web Applications, Backend APIs, and Business Management Systems** using **.NET & C#**.
 
-I build real-world applications ranging from **Unity 2D games** to **full-stack business management systems** and **backend APIs** using **.NET & C#**.
+I build practical software solutions from **full-stack web applications** to **RESTful APIs**, with additional experience in **Unity/C# game development**.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🎮 Game Development
-- **Engine:** ![Unity](https://img.shields.io/badge/Unity-000000?logo=unity&logoColor=white)
-- **Language:** ![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-- **Skills:** Procedural generation, 2D gameplay mechanics, ShaderLab/HLSL, player control systems
-
-### 💻 Web & Backend Development
-- **Backend:** ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white) ASP.NET Core, RESTful APIs
+### 💻 Primary Skills
+- **Backend:** ![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white) ASP.NET Core, RESTful APIs, C#
 - **Frontend:** ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 - **Database:** ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?logo=microsoftsqlserver&logoColor=white) T-SQL
 - **Tools:** ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) GitHub, Visual Studio, Postman
+
+### 🎮 Additional Experience
+- **Game Development:** Unity, C#, 2D mechanics, ShaderLab/HLSL
+- Built several 2D games including procedural generation systems
 
 ---
 
@@ -26,37 +25,37 @@ I build real-world applications ranging from **Unity 2D games** to **full-stack 
 
 ### 🏗️ [Personal Concrete Order Management](https://github.com/trhlow/Personal-Concrete-Order-Management)
 A **business management system** tailored for the fresh concrete industry, handling order tracking, delivery deadlines, concrete grades, and debt management.  
-**Tech:** C#, HTML, JavaScript, SQL Server
+**Tech:** C#, HTML, JavaScript, SQL Server  
+**Key Features:** Industry-specific workflow, deadline management, financial tracking
 
 ---
 
 ### 📚 [EduCycle – Backend API](https://github.com/trhlow/educycle-backend)
 Backend API for a **peer-to-peer academic book exchange platform**, enabling students to trade textbooks efficiently.  
-**Tech:** ASP.NET Core, RESTful API design
+**Tech:** ASP.NET Core, RESTful API design  
+**Key Features:** Authentication, resource management, API architecture
 
 ---
 
-### 🧱 [Concrete Management System (Frontend + Backend)](https://github.com/trhlow/concrete-frontend) | [Backend](https://github.com/trhlow/concrete-backend)
-Full-stack system for managing concrete orders with separate frontend and backend architecture.  
-**Tech:** C#, .NET, HTML, JavaScript
-
----
-
-### 🐍 [Snake Game (Unity / C#)](https://github.com/trhlow/CSN-TranHoangLong-110123025-SnakeGame)
-Classic Snake Game with clean gameplay logic, collision handling, and score system. Built as an academic project showcasing Unity fundamentals.  
-**Tech:** Unity, C#, 2D game mechanics
-
----
-
-### 🎲 [Procedural Dungeon 2D](https://github.com/trhlow/Game-Procedural-Dungeon-2D)
-2D roguelike dungeon generator with procedural level generation and shader effects.  
-**Tech:** Unity, C#, ShaderLab, HLSL
+### 🧱 [Concrete Management System](https://github.com/trhlow/concrete-backend) | [Frontend](https://github.com/trhlow/concrete-frontend)
+Full-stack system for managing concrete orders with **separated frontend and backend architecture**.  
+**Tech:** C# (.NET), HTML, JavaScript  
+**Key Features:** Modular architecture, API integration, business logic separation
 
 ---
 
 ### 🏠 [Quanlynhatro – Dorm Management System](https://github.com/phdinh254/PT-TK-Quanlynhatro)
-Collaborative project for managing dormitory records with database-driven architecture.  
-**Tech:** C#, HTML, T-SQL
+Collaborative project for managing dormitory records with **database-driven architecture**.  
+**Tech:** C#, HTML, T-SQL  
+**Key Features:** CRUD operations, data persistence, multi-user system
+
+---
+
+### 🎯 Other Projects
+- **[FullStack .NET](https://github.com/trhlow/FullStack-.Net)** – Full-stack development practice with .NET
+- **[C# A-Z for Software](https://github.com/trhlow/C_Shard_A-Z_For_Software)** – C# fundamentals and software concepts
+- **[Snake Game (Unity)](https://github.com/trhlow/CSN-TranHoangLong-110123025-SnakeGame)** – Academic project showcasing C# & game logic
+- **[Procedural Dungeon 2D](https://github.com/trhlow/Game-Procedural-Dungeon-2D)** – 2D roguelike with procedural generation
 
 ---
 
@@ -74,11 +73,13 @@ Collaborative project for managing dormitory records with database-driven archit
 
 ## 🇻🇳 Giới thiệu (Tiếng Việt)
 
-Tôi là sinh viên CNTT với kinh nghiệm phát triển **ứng dụng web full-stack**, **backend API** và **game Unity 2D**.  
+Tôi là sinh viên CNTT chuyên về **phát triển phần mềm ứng dụng**, tập trung vào **backend API** và **ứng dụng web full-stack** với **.NET & C#**.
 
-Các dự án đã làm bao gồm:
-- Hệ thống quản lý đơn hàng bê tông tươi (C#, HTML, SQL)
-- Backend API cho nền tảng trao đổi sách (.NET Core)
-- Game 2D với Unity (Snake Game, Procedural Dungeon)
+### 💼 Kinh nghiệm dự án:
+- **Hệ thống quản lý doanh nghiệp** cho ngành bê tông tươi (xử lý đơn hàng, công nợ, deadline)
+- **Backend API** cho nền tảng trao đổi sách học thuật
+- **Full-stack applications** với kiến trúc frontend/backend tách biệt
+- **Game development** với Unity/C# (kỹ năng bổ trợ)
 
-Tôi tập trung vào việc xây dựng các giải pháp thực tế với **code sạch, dễ bảo trì** và **kiến trúc rõ ràng**.
+### 🎯 Mục tiêu:
+Xây dựng các giải pháp phần mềm thực tế với **code sạch**, **kiến trúc rõ ràng** và **dễ bảo trì**.
