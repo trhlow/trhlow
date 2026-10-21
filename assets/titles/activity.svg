@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="900" height="90" role="img">
+<style>.in{animation:bob 5s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.bar{animation:sweep 3.5s ease-in-out infinite}@keyframes sweep{0%,100%{opacity:.35}50%{opacity:.9}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs></defs>
+<g class="in">
+<text x="231" y="58" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="20" font-weight="700" fill="#6fe3e3" opacity=".75">07</text>
+<text x="280.2" y="65.0" fill="#14605f" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB ACTIVITY</text>
+<text x="279.2" y="64.0" fill="#14605f" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB ACTIVITY</text>
+<text x="278.2" y="63.0" fill="#14605f" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB ACTIVITY</text>
+<text x="277.2" y="62.0" fill="#14605f" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB ACTIVITY</text>
+<text x="276.2" y="61.0" fill="#14605f" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB ACTIVITY</text>
+<text x="275.25" y="60" fill="#6fe3e3" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB ACTIVITY</text>
+</g>
+<rect class="bar" x="290.0" y="76" width="320" height="4" rx="2" fill="#6fe3e3" opacity=".7"/>
+</svg>
