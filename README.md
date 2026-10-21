@@ -19,10 +19,6 @@
 
 <div align="center"><img src="./assets/titles/about.svg" width="70%" alt="01 — About me" /></div>
 
-<table>
-<tr>
-<td width="52%" valign="top">
-
 Xin chào! I'm **Long**, an IT student at **Tra Vinh University** who builds backends the way production
 expects them: invariants guarded twice, tests running against real infrastructure, and releases that
 can prove where they came from.
@@ -35,34 +31,6 @@ reverse-engineer them.
 - 🌱 Going deeper on supply-chain security, observability and event-driven design
 - 💬 Ask me about Spring Security, Redis, RabbitMQ, Flyway, Testcontainers
 - ⚡ Fun fact: my Unity coursework was a **Snake game** — so a snake now eats my contribution graph below
-
-</td>
-<td width="48%" valign="top">
-
-```java
-var me = Developer.builder()
-    .name("Trần Hoàng Long")
-    .role("Backend Java Developer")
-    .base("Vinh Long, Viet Nam")
-    .school("Tra Vinh University · IT")
-    .languages(List.of(
-        "Java", "TypeScript", "Dart",
-        "Python", "C#"))
-    .backend(List.of(
-        "Spring Boot", "Spring Security",
-        "JPA", "WebSocket/STOMP"))
-    .data(List.of(
-        "PostgreSQL", "MongoDB",
-        "Redis", "RabbitMQ"))
-    .ops(List.of(
-        "Docker", "Caddy", "GitHub Actions"))
-    .motto("Correct first, then fast.")
-    .build();
-```
-
-</td>
-</tr>
-</table>
 
 <br/>
 
@@ -102,9 +70,6 @@ var me = Developer.builder()
   <a href="https://github.com/trhlow/EDUCYCLE"><img src="./assets/cards/educycle.svg" width="48%" alt="EduCycle — peer-to-peer marketplace for students' books" /></a>
   <a href="https://github.com/trhlow/Personal-Management"><img src="./assets/cards/personal-ai-manager.svg" width="48%" alt="Personal AI Manager — goals, tasks, finance and AI insights" /></a>
 </p>
-<p align="center">
-  <a href="https://github.com/trhlow/taxiincomemanager"><img src="./assets/cards/taxi-income-manager.svg" width="48%" alt="Taxi Income Manager — income tracker for taxi drivers" /></a>
-</p>
 
 <br/>
 
@@ -140,8 +105,8 @@ var me = Developer.builder()
 <td width="50%" valign="top">
 
 ### 🎯 Correctness first
-Invariants get two independent guards — a fast atomic counter and a database lock.
-Write APIs take an `Idempotency-Key`, so a retry never double-books or double-charges.
+Invariants get two independent guards — a fast atomic counter and a database lock —
+so a burst of concurrent requests can never oversell a seat.
 
 </td>
 <td width="50%" valign="top">

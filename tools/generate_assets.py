@@ -340,9 +340,6 @@ def cards():
         ("personal-ai-manager", "Personal AI Manager", "Goals → plans → tasks, finance & insights",
          "Mobile-first life manager: budgets, reminders, spending plans and AI insights that advise but never modify your data.",
          ["Spring Boot", "Flutter", "JWT", "PostgreSQL"], "#ff7b8a", "PAI", "MOBILE"),
-        ("taxi-income-manager", "Taxi Income Manager", "Income tracker for taxi drivers",
-         "Fare & net-pay engine, 10-day pay cycles, weekly schedule. Idempotent order API, Flyway, Testcontainers in CI.",
-         ["Java 21", "Spring Boot 3", "Flutter", "Riverpod", "PostgreSQL"], "#ffd27a", "TAX", "MOBILE"),
     ]
     for args in main:
         card(*args)
