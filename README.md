@@ -1,3 +1,5 @@
+**English** · [Tiếng Việt](https://github.com/trhlow/trhlow/blob/main/README.vi.md)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />

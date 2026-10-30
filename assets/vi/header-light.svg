@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 328" width="880" height="328" role="img">
+<style>
+.ship{transform:translate(60px,212px);animation:ship 22s ease-in-out infinite}@keyframes ship{0.0%{transform:translate(60px,212px)}4.8%{transform:translate(60px,212px)}12.0%{transform:translate(250px,212px)}16.8%{transform:translate(250px,212px)}24.0%{transform:translate(440px,212px)}28.8%{transform:translate(440px,212px)}36.0%{transform:translate(630px,212px)}40.8%{transform:translate(630px,212px)}48.0%{transform:translate(820px,212px)}52.8%{transform:translate(820px,212px)}60.0%{transform:translate(630px,212px)}64.8%{transform:translate(630px,212px)}72.0%{transform:translate(440px,212px)}76.8%{transform:translate(440px,212px)}84.0%{transform:translate(250px,212px)}88.8%{transform:translate(250px,212px)}96.0%{transform:translate(60px,212px)}100%{transform:translate(60px,212px)}}
+.hull{animation:hull 22s steps(1,end) infinite}@keyframes hull{0%{transform:scaleX(1)}50.4%{transform:scaleX(-1)}100%{transform:scaleX(1)}}
+.bob{animation:bob 3.2s ease-in-out infinite}@keyframes bob{50%{transform:translateY(3px) rotate(-1.2deg)}}
+.cargo{animation:cargo 22s steps(1,end) infinite}@keyframes cargo{0%{opacity:0}50.4%{opacity:1}100%{opacity:0}}
+.req{animation:req 22s steps(1,end) infinite}@keyframes req{0%{opacity:1}50.4%{opacity:0}100%{opacity:1}}
+.res{animation:res 22s steps(1,end) infinite}@keyframes res{0%{opacity:0}50.4%{opacity:1}100%{opacity:0}}
+@keyframes sway{50%{transform:rotate(3deg)}}
+.tw{animation:tw 4s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
+.fly{animation:fly 26s linear infinite}@keyframes fly{from{transform:translateX(-60px)}to{transform:translateX(960px)}}
+.w0{animation:drift 9s linear infinite}
+.w1{animation:drift 13s linear infinite}
+.w2{animation:drift 7s linear infinite}
+@keyframes drift{to{transform:translateX(160px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.l0{animation:l0 22s steps(1,end) infinite}@keyframes l0{0%{opacity:1}0.0%{opacity:1}100.8%{opacity:1}100%{opacity:1}}
+.l1{animation:l1 22s steps(1,end) infinite}@keyframes l1{0%{opacity:0}12.0%{opacity:1}88.8%{opacity:0}100%{opacity:0}}
+.l2{animation:l2 22s steps(1,end) infinite}@keyframes l2{0%{opacity:0}24.0%{opacity:1}76.8%{opacity:0}100%{opacity:0}}
+.l3{animation:l3 22s steps(1,end) infinite}@keyframes l3{0%{opacity:0}36.0%{opacity:1}64.8%{opacity:0}100%{opacity:0}}
+.l4{animation:l4 22s steps(1,end) infinite}@keyframes l4{0%{opacity:0}48.0%{opacity:1}52.8%{opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<text x="0" y="48" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="600" fill="#1f2328" text-anchor="start" >Trần Hoàng Long</text>
+<text x="0" y="84" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#59636e" text-anchor="start" >Lập trình viên Backend Java · Vĩnh Long, Việt Nam</text>
+<circle cx="800" cy="56" r="22" fill="none" stroke="#59636e" stroke-width="1.8"/>
+<g stroke="#59636e" stroke-width="1.8" stroke-linecap="round" style="transform-origin:800px 56px;animation:spin 40s linear infinite"><line x1="830.0" y1="56.0" x2="838.0" y2="56.0"/><line x1="826.0" y1="71.0" x2="832.9" y2="75.0"/><line x1="815.0" y1="82.0" x2="819.0" y2="88.9"/><line x1="800.0" y1="86.0" x2="800.0" y2="94.0"/><line x1="785.0" y1="82.0" x2="781.0" y2="88.9"/><line x1="774.0" y1="71.0" x2="767.1" y2="75.0"/><line x1="770.0" y1="56.0" x2="762.0" y2="56.0"/><line x1="774.0" y1="41.0" x2="767.1" y2="37.0"/><line x1="785.0" y1="30.0" x2="781.0" y2="23.1"/><line x1="800.0" y1="26.0" x2="800.0" y2="18.0"/><line x1="815.0" y1="30.0" x2="819.0" y2="23.1"/><line x1="826.0" y1="41.0" x2="832.9" y2="37.0"/></g>
+<g class="fly"><path d="M0 40 q7 -7 13 0 q7 -7 13 0 M40 62 q6 -6 11 0 q6 -6 11 0" fill="none" stroke="#59636e" stroke-width="1.5" stroke-linecap="round"/></g>
+<g transform="translate(0 34)">
+<path d="M156 190 Q158 142 168 102" fill="none" stroke="#59636e" stroke-width="2.4" stroke-linecap="round"/><g style="transform-origin:168px 102px;animation:sway 6s ease-in-out 0s infinite"><path d="M168 102 Q149 104 134 116 M168 102 Q154 82 142 94 M168 102 Q165 72 162 84 M168 102 Q178 78 186 90 M168 102 Q187 102 202 114" fill="none" stroke="#59636e" stroke-width="1.8" stroke-linecap="round"/></g>
+<path d="M346 190 Q344 150 336 118" fill="none" stroke="#59636e" stroke-width="2.4" stroke-linecap="round"/><g style="transform-origin:336px 118px;animation:sway 6s ease-in-out -2s infinite"><path d="M336 118 Q317 120 302 132 M336 118 Q322 98 310 110 M336 118 Q333 88 330 100 M336 118 Q346 94 354 106 M336 118 Q355 118 370 130" fill="none" stroke="#59636e" stroke-width="1.8" stroke-linecap="round"/></g>
+<path d="M532 190 Q534 138 542 96" fill="none" stroke="#59636e" stroke-width="2.4" stroke-linecap="round"/><g style="transform-origin:542px 96px;animation:sway 6s ease-in-out -3.5s infinite"><path d="M542 96 Q523 98 508 110 M542 96 Q528 76 516 88 M542 96 Q539 66 536 78 M542 96 Q552 72 560 84 M542 96 Q561 96 576 108" fill="none" stroke="#59636e" stroke-width="1.8" stroke-linecap="round"/></g>
+<path d="M726 190 Q724 152 718 120" fill="none" stroke="#59636e" stroke-width="2.4" stroke-linecap="round"/><g style="transform-origin:718px 120px;animation:sway 6s ease-in-out -1.2s infinite"><path d="M718 120 Q699 122 684 134 M718 120 Q704 100 692 112 M718 120 Q715 90 712 102 M718 120 Q728 96 736 108 M718 120 Q737 120 752 132" fill="none" stroke="#59636e" stroke-width="1.8" stroke-linecap="round"/></g>
+<path d="M0 192 q110 -5 220 0 t220 0 t220 0 t220 0" fill="none" stroke="#59636e" stroke-width="1.8"/>
+<path d="M44 192 H76 M49 192 V212 M71 192 V212" stroke="#59636e" stroke-width="2" stroke-linecap="round"/>
+<line x1="76" y1="192" x2="76" y2="170" stroke="#59636e" stroke-width="1.6"/>
+<circle cx="76" cy="166" r="4" fill="#ffffff" stroke="#59636e" stroke-width="1.6"/>
+<circle class="l0" cx="76" cy="166" r="4" fill="#1a7f37"/>
+<text x="60" y="284" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#59636e" text-anchor="middle" >client</text>
+<path d="M234 192 H266 M239 192 V212 M261 192 V212" stroke="#59636e" stroke-width="2" stroke-linecap="round"/>
+<line x1="266" y1="192" x2="266" y2="170" stroke="#59636e" stroke-width="1.6"/>
+<circle cx="266" cy="166" r="4" fill="#ffffff" stroke="#59636e" stroke-width="1.6"/>
+<circle class="l1" cx="266" cy="166" r="4" fill="#1a7f37"/>
+<text x="250" y="284" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#59636e" text-anchor="middle" >controller</text>
+<path d="M424 192 H456 M429 192 V212 M451 192 V212" stroke="#59636e" stroke-width="2" stroke-linecap="round"/>
+<line x1="456" y1="192" x2="456" y2="170" stroke="#59636e" stroke-width="1.6"/>
+<circle cx="456" cy="166" r="4" fill="#ffffff" stroke="#59636e" stroke-width="1.6"/>
+<circle class="l2" cx="456" cy="166" r="4" fill="#1a7f37"/>
+<text x="440" y="284" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#59636e" text-anchor="middle" >service</text>
+<path d="M614 192 H646 M619 192 V212 M641 192 V212" stroke="#59636e" stroke-width="2" stroke-linecap="round"/>
+<line x1="646" y1="192" x2="646" y2="170" stroke="#59636e" stroke-width="1.6"/>
+<circle cx="646" cy="166" r="4" fill="#ffffff" stroke="#59636e" stroke-width="1.6"/>
+<circle class="l3" cx="646" cy="166" r="4" fill="#1a7f37"/>
+<text x="630" y="284" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#59636e" text-anchor="middle" >repository</text>
+<path d="M804 192 H836 M809 192 V212 M831 192 V212" stroke="#59636e" stroke-width="2" stroke-linecap="round"/>
+<line x1="836" y1="192" x2="836" y2="170" stroke="#59636e" stroke-width="1.6"/>
+<circle cx="836" cy="166" r="4" fill="#ffffff" stroke="#59636e" stroke-width="1.6"/>
+<circle class="l4" cx="836" cy="166" r="4" fill="#1a7f37"/>
+<text x="820" y="284" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#59636e" text-anchor="middle" >database</text>
+<path class="w0" d="M-160 222 q20 -4 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 " fill="none" stroke="#d1d9e0" stroke-width="1.5" stroke-dasharray="70 90"/><path class="w1" d="M-160 240 q20 -4 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 " fill="none" stroke="#d1d9e0" stroke-width="1.5" stroke-dasharray="90 70"/><path class="w2" d="M-160 258 q20 -4 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 " fill="none" stroke="#d1d9e0" stroke-width="1.5" stroke-dasharray="110 50"/>
+<g class="ship"><text x="0" y="36" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#1a7f37" text-anchor="middle" class="req" stroke="#ffffff" stroke-width="5" paint-order="stroke">request</text><text x="0" y="36" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#1a7f37" text-anchor="middle" class="res" stroke="#ffffff" stroke-width="5" paint-order="stroke">response</text><g class="bob"><g class="hull"><path d="M-44 0 Q-30 15 0 15 Q30 15 46 -5 Q20 3 -44 0 Z" fill="#ffffff" stroke="#1f2328" stroke-width="2" stroke-linejoin="round"/><path d="M-26 1 Q-24 -18 -4 -18 Q12 -18 14 0" fill="#ffffff" stroke="#59636e" stroke-width="1.8"/><line x1="-40" y1="-1" x2="-52" y2="20" stroke="#59636e" stroke-width="1.8" stroke-linecap="round"/><rect x="20" y="-11" width="11" height="11" rx="2" fill="#ffffff" stroke="#1a7f37" stroke-width="1.8"/><rect class="cargo" x="20" y="-11" width="11" height="11" rx="2" fill="#1a7f37"/></g></g></g></g>
+</svg>

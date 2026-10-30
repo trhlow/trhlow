@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 216" width="880" height="216" role="img">
+<style>
+.pin{transform:translate(355px,46px);animation:pin 16s ease-in-out infinite}@keyframes pin{0%,6%{transform:translate(355px,46px)}8%,20%{transform:translate(115px,92px)}30%,40%{transform:translate(550px,138px)}50%,100%{transform:translate(355px,46px)}}
+.hop{animation:hop 1.8s ease-in-out infinite}@keyframes hop{50%{transform:translateY(-6px)}}
+.d0{animation:d0 16s steps(1,end) infinite}@keyframes d0{0%{opacity:1}5%{opacity:0}52.0%{opacity:1}100%{opacity:1}}
+.d1{animation:d1 16s steps(1,end) infinite}@keyframes d1{0%{opacity:1}5%{opacity:0}54.6%{opacity:1}100%{opacity:1}}
+.d2{animation:d2 16s steps(1,end) infinite}@keyframes d2{0%{opacity:1}5%{opacity:0}57.2%{opacity:1}100%{opacity:1}}
+.d3{animation:d3 16s steps(1,end) infinite}@keyframes d3{0%{opacity:1}5%{opacity:0}59.8%{opacity:1}100%{opacity:1}}
+.d4{animation:d4 16s steps(1,end) infinite}@keyframes d4{0%{opacity:1}5%{opacity:0}62.4%{opacity:1}100%{opacity:1}}
+.d5{animation:d5 16s steps(1,end) infinite}@keyframes d5{0%{opacity:1}5%{opacity:0}65.0%{opacity:1}100%{opacity:1}}
+.ok{animation:ok 16s steps(1,end) infinite}@keyframes ok{0%{opacity:1}5%{opacity:0}70%{opacity:1}100%{opacity:1}}
+.brk{animation:brk 16s steps(1,end) infinite}@keyframes brk{0%{opacity:1}5%{opacity:0}82%{opacity:1}100%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<path d="M20 186 V118 H210 V186" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M12 118 H218" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="34" y="146" width="20" height="40" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="35" y="132" width="18" height="14" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="79" y="146" width="20" height="40" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="80" y="132" width="18" height="14" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="124" y="146" width="20" height="40" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="125" y="132" width="18" height="14" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="169" y="146" width="20" height="40" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="170" y="132" width="18" height="14" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path d="M290 186 V106 H420 V186" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M276 110 L355 58 L434 110" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="340" y="140" width="30" height="46" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="304" y="124" width="24" height="24" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="382" y="124" width="24" height="24" rx="1" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M388 74 V58 H402 V83" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path d="M490 186 V170" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M520 186 V170" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M550 186 V170" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M580 186 V170" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M610 186 V170" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M490 174 H610" stroke="#8b949e" stroke-width="1.4" stroke-dasharray="4 4" fill="none"/>
+<path d="M0 186 H640" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<text x="115" y="208" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#8b949e" text-anchor="middle" >Trọ</text>
+<text x="355" y="208" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#8b949e" text-anchor="middle" >Nhà</text>
+<text x="550" y="208" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#8b949e" text-anchor="middle" >Đất</text>
+<g class="pin"><g class="hop"><path d="M0 0 C-14 -16 -14 -32 0 -32 C14 -32 14 -16 0 0 Z" fill="#0d1117" stroke="#3fb950" stroke-width="2"/><circle cy="-21" r="4.5" fill="#3fb950"/></g></g>
+<rect x="690" y="8" width="128" height="196" rx="16" fill="none" stroke="#8b949e" stroke-width="2"/>
+<line x1="738" y1="21" x2="770" y2="21" stroke="#8b949e" stroke-width="2" stroke-linecap="round"/>
+<text x="754.0" y="50" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#8b949e" text-anchor="middle" >Nhập mã SMS</text>
+<rect x="702" y="62" width="15" height="21" rx="3" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<g class="d0"><text x="709.5" y="78" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="middle" >4</text></g>
+<rect x="720" y="62" width="15" height="21" rx="3" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<g class="d1"><text x="727.5" y="78" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="middle" >8</text></g>
+<rect x="738" y="62" width="15" height="21" rx="3" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<g class="d2"><text x="745.5" y="78" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="middle" >2</text></g>
+<rect x="756" y="62" width="15" height="21" rx="3" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<g class="d3"><text x="763.5" y="78" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="middle" >9</text></g>
+<rect x="774" y="62" width="15" height="21" rx="3" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<g class="d4"><text x="781.5" y="78" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="middle" >1</text></g>
+<rect x="792" y="62" width="15" height="21" rx="3" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<g class="d5"><text x="799.5" y="78" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="600" fill="#e6edf3" text-anchor="middle" >5</text></g>
+<g class="ok"><circle cx="754.0" cy="120" r="17" fill="#3fb950"/><path d="M746.0 120 l6 6 l10 -11" fill="none" stroke="#0d1117" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="ok"><text x="754.0" y="156" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#e6edf3" text-anchor="middle" >Đã đặt lịch xem</text></g>
+<g class="brk"><text x="754.0" y="176" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#3fb950" text-anchor="middle" >Môi giới xác nhận</text></g>
+</svg>

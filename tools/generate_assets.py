@@ -25,7 +25,39 @@ THEMES = {
 }
 
 
+# Scene wording for the Vietnamese README; anything not listed stays as written.
+VI = {
+    "Backend Java Developer · Vinh Long, Viet Nam": "Lập trình viên Backend Java · Vĩnh Long, Việt Nam",
+    "STAGE": "SÂN KHẤU",
+    "SOLD OUT · 0 OVERSOLD": "HẾT VÉ · KHÔNG BÁN VƯỢT",
+    "approvals processed": "lượt duyệt đã xử lý",
+    "tickets issued": "vé đã phát hành",
+    "still pending, no seat taken": "vẫn chờ duyệt, không giữ ghế",
+    "A2 Key · Reading and Writing": "A2 Key · Đọc và Viết",
+    "live over SignalR": "trực tiếp qua SignalR",
+    "server clock": "đồng hồ server",
+    "paused": "tạm dừng",
+    "18 candidates online · no incidents": "18 thí sinh trực tuyến · không có sự cố",
+    "proctor → C08: pause": "giám thị → C08: tạm dừng",
+    "proctor → C08: add 2 minutes": "giám thị → C08: cộng 2 phút",
+    "proctor → C08: resume": "giám thị → C08: làm tiếp",
+    "Enter SMS code": "Nhập mã SMS",
+    "Viewing booked": "Đã đặt lịch xem",
+    "Broker confirmed": "Môi giới xác nhận",
+    "ADMIT ONE": "VÉ VÀO CỬA",
+    "No. 0001": "Số 0001",
+    "LANGUAGES": "NGÔN NGỮ",
+    "DATA": "DỮ LIỆU",
+    "INFRA": "HẠ TẦNG",
+    "scan to say hi": "quét để làm quen",
+    "CHECKED IN": "ĐÃ SOÁT VÉ",
+}
+lang = "en"
+
+
 def text(x, y, value, fill, size=14, family=SANS, anchor="start", weight=400, extra=""):
+    if lang == "vi":
+        value = VI.get(value, value)
     return (f'<text x="{x}" y="{y}" font-family="{family}" font-size="{size}" font-weight="{weight}" '
             f'fill="{fill}" text-anchor="{anchor}" {extra}>{escape(str(value))}</text>')
 
@@ -37,7 +69,7 @@ def document(height, body, css):
 
 
 def save(name, content):
-    path = os.path.join(OUT, "assets", name)
+    path = os.path.join(OUT, "assets", "" if lang == "en" else lang, name)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         f.write(content)
@@ -379,10 +411,11 @@ def ticket(theme):
     save(f"ticket-{theme}.svg", document(H + 2, "\n".join(b), "\n".join(css)))
 
 
-for theme in THEMES:
-    header(theme)
-    seats(theme)
-    proctor(theme)
-    street(theme)
-    ticket(theme)
+for lang in ("en", "vi"):
+    for theme in THEMES:
+        header(theme)
+        seats(theme)
+        proctor(theme)
+        street(theme)
+        ticket(theme)
 print("ok")
