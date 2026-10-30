@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 266" width="880" height="266" role="img">
+<style>
+.board{animation:board 18s linear infinite}@keyframes board{0%,97%{opacity:1}98.5%{opacity:0}100%{opacity:1}}
+.live{animation:live 2s ease-in-out infinite}@keyframes live{50%{opacity:.25}}
+.clock{transform:translateY(-612px);animation:clock 18s linear infinite}@keyframes clock{0%{transform:translateY(0px);animation-timing-function:steps(18,end)}100%{transform:translateY(-612px);}}
+.b0{stroke-dashoffset:4.5;animation:b0 18s linear infinite}@keyframes b0{0%{stroke-dashoffset:79.0}100%{stroke-dashoffset:4.5}}
+.b1{stroke-dashoffset:11.8;animation:b1 18s linear infinite}@keyframes b1{0%{stroke-dashoffset:81.9}100%{stroke-dashoffset:11.8}}
+.b2{stroke-dashoffset:24.9;animation:b2 18s linear infinite}@keyframes b2{0%{stroke-dashoffset:83.1}100%{stroke-dashoffset:24.9}}
+.b3{stroke-dashoffset:26.0;animation:b3 18s linear infinite}@keyframes b3{0%{stroke-dashoffset:57.0}100%{stroke-dashoffset:26.0}}
+.b4{stroke-dashoffset:18.8;animation:b4 18s linear infinite}@keyframes b4{0%{stroke-dashoffset:67.2}100%{stroke-dashoffset:18.8}}
+.b5{stroke-dashoffset:17.8;animation:b5 18s linear infinite}@keyframes b5{0%{stroke-dashoffset:72.6}100%{stroke-dashoffset:17.8}}
+.b6{stroke-dashoffset:8.3;animation:b6 18s linear infinite}@keyframes b6{0%{stroke-dashoffset:80.0}100%{stroke-dashoffset:8.3}}
+.b7{stroke-dashoffset:25.2;animation:b7 18s linear infinite}@keyframes b7{0%{stroke-dashoffset:82.9}26%,60%{stroke-dashoffset:67.9}100%{stroke-dashoffset:25.2}}
+.b8{stroke-dashoffset:24.3;animation:b8 18s linear infinite}@keyframes b8{0%{stroke-dashoffset:84.9}100%{stroke-dashoffset:24.3}}
+.b9{stroke-dashoffset:6.2;animation:b9 18s linear infinite}@keyframes b9{0%{stroke-dashoffset:73.9}100%{stroke-dashoffset:6.2}}
+.b10{stroke-dashoffset:28.7;animation:b10 18s linear infinite}@keyframes b10{0%{stroke-dashoffset:74.7}100%{stroke-dashoffset:28.7}}
+.b11{stroke-dashoffset:3.7;animation:b11 18s linear infinite}@keyframes b11{0%{stroke-dashoffset:78.1}100%{stroke-dashoffset:3.7}}
+.b12{stroke-dashoffset:14.2;animation:b12 18s linear infinite}@keyframes b12{0%{stroke-dashoffset:83.7}100%{stroke-dashoffset:14.2}}
+.b13{stroke-dashoffset:13.1;animation:b13 18s linear infinite}@keyframes b13{0%{stroke-dashoffset:74.7}100%{stroke-dashoffset:13.1}}
+.b14{stroke-dashoffset:12.2;animation:b14 18s linear infinite}@keyframes b14{0%{stroke-dashoffset:75.9}100%{stroke-dashoffset:12.2}}
+.b15{stroke-dashoffset:13.4;animation:b15 18s linear infinite}@keyframes b15{0%{stroke-dashoffset:71.3}100%{stroke-dashoffset:13.4}}
+.b16{stroke-dashoffset:15.3;animation:b16 18s linear infinite}@keyframes b16{0%{stroke-dashoffset:59.8}100%{stroke-dashoffset:15.3}}
+.b17{stroke-dashoffset:30.1;animation:b17 18s linear infinite}@keyframes b17{0%{stroke-dashoffset:81.4}100%{stroke-dashoffset:30.1}}
+.idle{animation:idle 18s steps(1,end) infinite}@keyframes idle{0%{opacity:1}26%{opacity:0}80%{opacity:1}100%{opacity:1}}
+.log0{opacity:0;animation:log0 18s steps(1,end) infinite}@keyframes log0{0%{opacity:0}26%{opacity:1}46%{opacity:0}100%{opacity:0}}
+.log1{opacity:0;animation:log1 18s steps(1,end) infinite}@keyframes log1{0%{opacity:0}46%{opacity:1}60%{opacity:0}100%{opacity:0}}
+.log2{opacity:0;animation:log2 18s steps(1,end) infinite}@keyframes log2{0%{opacity:0}60%{opacity:1}80%{opacity:0}100%{opacity:0}}
+.on-hold{opacity:0;animation:hold 18s steps(1,end) infinite}@keyframes hold{0%{opacity:0}26%{opacity:1}60%{opacity:0}100%{opacity:0}}
+.grant{opacity:0;animation:grant 18s steps(1,end) infinite}@keyframes grant{0%{opacity:0}60%{opacity:1}82%{opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<text x="1" y="22" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328" text-anchor="start" >A2 Key · Reading and Writing</text>
+<circle class="live" cx="9" cy="37" r="3.5" fill="#1a7f37"/>
+<text x="20" y="41" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#59636e" text-anchor="start" >live over SignalR</text>
+<clipPath id="c-clock"><rect x="723" y="8" width="156" height="34"/></clipPath><g clip-path="url(#c-clock)"><g transform="translate(879 34)" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="26" font-weight="600" fill="#1f2328" text-anchor="end"><g class="clock"><text y="0">00:11:42</text><text y="34">00:11:41</text><text y="68">00:11:40</text><text y="102">00:11:39</text><text y="136">00:11:38</text><text y="170">00:11:37</text><text y="204">00:11:36</text><text y="238">00:11:35</text><text y="272">00:11:34</text><text y="306">00:11:33</text><text y="340">00:11:32</text><text y="374">00:11:31</text><text y="408">00:11:30</text><text y="442">00:11:29</text><text y="476">00:11:28</text><text y="510">00:11:27</text><text y="544">00:11:26</text><text y="578">00:11:25</text><text y="612">00:11:24</text></g></g></g>
+<text x="879" y="11" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#59636e" text-anchor="end" >server clock</text>
+<g class="board">
+<rect x="1" y="50" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="13" y="72" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C01</text>
+<line x1="13" y1="87" x2="127" y2="87" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b0" x1="13" y1="87" x2="127" y2="87" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="149" y="50" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="161" y="72" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C02</text>
+<line x1="161" y1="87" x2="275" y2="87" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b1" x1="161" y1="87" x2="275" y2="87" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="297" y="50" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="309" y="72" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C03</text>
+<line x1="309" y1="87" x2="423" y2="87" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b2" x1="309" y1="87" x2="423" y2="87" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="445" y="50" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="457" y="72" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C04</text>
+<line x1="457" y1="87" x2="571" y2="87" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b3" x1="457" y1="87" x2="571" y2="87" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="593" y="50" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="605" y="72" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C05</text>
+<line x1="605" y1="87" x2="719" y2="87" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b4" x1="605" y1="87" x2="719" y2="87" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="741" y="50" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="753" y="72" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C06</text>
+<line x1="753" y1="87" x2="867" y2="87" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b5" x1="753" y1="87" x2="867" y2="87" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="1" y="112" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="13" y="134" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C07</text>
+<line x1="13" y1="149" x2="127" y2="149" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b6" x1="13" y1="149" x2="127" y2="149" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="149" y="112" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="161" y="134" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C08</text>
+<g class="on-hold"><rect x="149" y="112" width="138" height="52" rx="6" fill="none" stroke="#9a6700" stroke-width="2"/><text x="275" y="134" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#9a6700" text-anchor="end" >paused</text></g>
+<g class="grant"><text x="275" y="134" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#1a7f37" text-anchor="end" >+2:00</text></g>
+<line x1="161" y1="149" x2="275" y2="149" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b7" x1="161" y1="149" x2="275" y2="149" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="297" y="112" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="309" y="134" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C09</text>
+<line x1="309" y1="149" x2="423" y2="149" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b8" x1="309" y1="149" x2="423" y2="149" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="445" y="112" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="457" y="134" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C10</text>
+<line x1="457" y1="149" x2="571" y2="149" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b9" x1="457" y1="149" x2="571" y2="149" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="593" y="112" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="605" y="134" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C11</text>
+<line x1="605" y1="149" x2="719" y2="149" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b10" x1="605" y1="149" x2="719" y2="149" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="741" y="112" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="753" y="134" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C12</text>
+<line x1="753" y1="149" x2="867" y2="149" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b11" x1="753" y1="149" x2="867" y2="149" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="1" y="174" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="13" y="196" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C13</text>
+<line x1="13" y1="211" x2="127" y2="211" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b12" x1="13" y1="211" x2="127" y2="211" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="149" y="174" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="161" y="196" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C14</text>
+<line x1="161" y1="211" x2="275" y2="211" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b13" x1="161" y1="211" x2="275" y2="211" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="297" y="174" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="309" y="196" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C15</text>
+<line x1="309" y1="211" x2="423" y2="211" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b14" x1="309" y1="211" x2="423" y2="211" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="445" y="174" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="457" y="196" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C16</text>
+<line x1="457" y1="211" x2="571" y2="211" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b15" x1="457" y1="211" x2="571" y2="211" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="593" y="174" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="605" y="196" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C17</text>
+<line x1="605" y1="211" x2="719" y2="211" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b16" x1="605" y1="211" x2="719" y2="211" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+<rect x="741" y="174" width="138" height="52" rx="6" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+<text x="753" y="196" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start" >C18</text>
+<line x1="753" y1="211" x2="867" y2="211" stroke="#d1d9e0" stroke-width="3" stroke-linecap="round"/>
+<line class="b17" x1="753" y1="211" x2="867" y2="211" stroke="#1a7f37" stroke-width="3" stroke-linecap="round" stroke-dasharray="114"/>
+</g>
+<g class="idle"><text x="1" y="254" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#59636e" text-anchor="start" >18 candidates online · no incidents</text></g>
+<g class="log0"><text x="1" y="254" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#9a6700" text-anchor="start" >proctor → C08: pause</text></g>
+<g class="log1"><text x="1" y="254" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1a7f37" text-anchor="start" >proctor → C08: add 2 minutes</text></g>
+<g class="log2"><text x="1" y="254" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="400" fill="#1a7f37" text-anchor="start" >proctor → C08: resume</text></g>
+</svg>
