@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="880" height="190" role="img">
+<style>
+.dot{animation:dot 9s ease-in-out infinite}@keyframes dot{0.0%{transform:translateX(8.0px);opacity:1}7.7%{transform:translateX(8.0px);opacity:1}22.0%{transform:translateX(224.0px);opacity:1}29.7%{transform:translateX(224.0px);opacity:1}44.0%{transform:translateX(440.0px);opacity:1}51.7%{transform:translateX(440.0px);opacity:1}66.0%{transform:translateX(656.0px);opacity:1}73.7%{transform:translateX(656.0px);opacity:1}88.0%{transform:translateX(872.0px);opacity:1}94%{transform:translateX(872.0px);opacity:1}100%{transform:translateX(872.0px);opacity:0}}
+.trail{animation:trail 9s ease-in-out infinite}@keyframes trail{0.0%{stroke-dashoffset:864.0;opacity:1}7.7%{stroke-dashoffset:864.0;opacity:1}22.0%{stroke-dashoffset:648.0;opacity:1}29.7%{stroke-dashoffset:648.0;opacity:1}44.0%{stroke-dashoffset:432.0;opacity:1}51.7%{stroke-dashoffset:432.0;opacity:1}66.0%{stroke-dashoffset:216.0;opacity:1}73.7%{stroke-dashoffset:216.0;opacity:1}88.0%{stroke-dashoffset:0.0;opacity:1}94%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+.n0{animation:n0 9s linear infinite}@keyframes n0{0%,0.0%{opacity:0}0.0%,94%{opacity:1}100%{opacity:0}}
+.n1{animation:n1 9s linear infinite}@keyframes n1{0%,21.9%{opacity:0}22.0%,94%{opacity:1}100%{opacity:0}}
+.n2{animation:n2 9s linear infinite}@keyframes n2{0%,43.9%{opacity:0}44.0%,94%{opacity:1}100%{opacity:0}}
+.n3{animation:n3 9s linear infinite}@keyframes n3{0%,65.9%{opacity:0}66.0%,94%{opacity:1}100%{opacity:0}}
+.n4{animation:n4 9s linear infinite}@keyframes n4{0%,87.9%{opacity:0}88.0%,94%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<text x="0" y="48" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="600" fill="#1f2328">Trần Hoàng Long</text>
+<text x="0" y="84" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#59636e">Backend Java Developer · Vinh Long, Viet Nam</text>
+<line x1="8" y1="132" x2="872" y2="132" stroke="#d1d9e0" stroke-width="1.5"/>
+<line class="trail" x1="8" y1="132" x2="872" y2="132" stroke="#1a7f37" stroke-width="1.5" stroke-dasharray="864" stroke-dashoffset="864"/>
+<circle cx="8.0" cy="132" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n0" cx="8.0" cy="132" r="5" fill="#1a7f37" opacity="0"/>
+<text x="0.0" y="160" text-anchor="start" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" fill="#59636e">request</text>
+<circle cx="224.0" cy="132" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n1" cx="224.0" cy="132" r="5" fill="#1a7f37" opacity="0"/>
+<text x="224.0" y="160" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" fill="#59636e">controller</text>
+<circle cx="440.0" cy="132" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n2" cx="440.0" cy="132" r="5" fill="#1a7f37" opacity="0"/>
+<text x="440.0" y="160" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" fill="#59636e">service</text>
+<circle cx="656.0" cy="132" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n3" cx="656.0" cy="132" r="5" fill="#1a7f37" opacity="0"/>
+<text x="656.0" y="160" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" fill="#59636e">repository</text>
+<circle cx="872.0" cy="132" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n4" cx="872.0" cy="132" r="5" fill="#1a7f37" opacity="0"/>
+<text x="880.0" y="160" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" fill="#59636e">database</text>
+<circle class="dot" cx="0" cy="132" r="3" fill="#1a7f37"/>
+</svg>

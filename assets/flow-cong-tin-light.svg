@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 52" width="880" height="52" role="img">
+<style>
+.dot{animation:dot 9s ease-in-out infinite}@keyframes dot{0.0%{transform:translateX(8.0px);opacity:1}10.3%{transform:translateX(8.0px);opacity:1}29.3%{transform:translateX(296.0px);opacity:1}39.6%{transform:translateX(296.0px);opacity:1}58.7%{transform:translateX(584.0px);opacity:1}68.9%{transform:translateX(584.0px);opacity:1}88.0%{transform:translateX(872.0px);opacity:1}94%{transform:translateX(872.0px);opacity:1}100%{transform:translateX(872.0px);opacity:0}}
+.trail{animation:trail 9s ease-in-out infinite}@keyframes trail{0.0%{stroke-dashoffset:864.0;opacity:1}10.3%{stroke-dashoffset:864.0;opacity:1}29.3%{stroke-dashoffset:576.0;opacity:1}39.6%{stroke-dashoffset:576.0;opacity:1}58.7%{stroke-dashoffset:288.0;opacity:1}68.9%{stroke-dashoffset:288.0;opacity:1}88.0%{stroke-dashoffset:0.0;opacity:1}94%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+.n0{animation:n0 9s linear infinite}@keyframes n0{0%,0.0%{opacity:0}0.0%,94%{opacity:1}100%{opacity:0}}
+.n1{animation:n1 9s linear infinite}@keyframes n1{0%,29.2%{opacity:0}29.3%,94%{opacity:1}100%{opacity:0}}
+.n2{animation:n2 9s linear infinite}@keyframes n2{0%,58.6%{opacity:0}58.7%,94%{opacity:1}100%{opacity:0}}
+.n3{animation:n3 9s linear infinite}@keyframes n3{0%,87.9%{opacity:0}88.0%,94%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<line x1="8" y1="10" x2="872" y2="10" stroke="#d1d9e0" stroke-width="1.5"/>
+<line class="trail" x1="8" y1="10" x2="872" y2="10" stroke="#1a7f37" stroke-width="1.5" stroke-dasharray="864" stroke-dashoffset="864"/>
+<circle cx="8.0" cy="10" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n0" cx="8.0" cy="10" r="5" fill="#1a7f37" opacity="0"/>
+<text x="0.0" y="38" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#59636e">Search listings</text>
+<circle cx="296.0" cy="10" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n1" cx="296.0" cy="10" r="5" fill="#1a7f37" opacity="0"/>
+<text x="296.0" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#59636e">Verify phone OTP</text>
+<circle cx="584.0" cy="10" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n2" cx="584.0" cy="10" r="5" fill="#1a7f37" opacity="0"/>
+<text x="584.0" y="38" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#59636e">Book a viewing</text>
+<circle cx="872.0" cy="10" r="5" fill="none" stroke="#59636e" stroke-width="1.5"/>
+<circle class="n3" cx="872.0" cy="10" r="5" fill="#1a7f37" opacity="0"/>
+<text x="880.0" y="38" text-anchor="end" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#59636e">Broker confirms</text>
+<circle class="dot" cx="0" cy="10" r="3" fill="#1a7f37"/>
+</svg>
