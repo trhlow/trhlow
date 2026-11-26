@@ -9,6 +9,7 @@ Mình là Trần Hoàng Long, sinh viên Công nghệ Thông tin tại Đại h�
 
 ![Thống kê GitHub của Long](https://github-readme-stats.vercel.app/api?username=trhlow&show_icons=true&theme=tokyonight&hide=contribs,prs,issues&locale=vi)
 
+<!-- showcase:start -->
 <a href="https://github.com/trhlow/TVU-Event-Ticket">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=trhlow&repo=TVU-Event-Ticket&theme=tokyonight&locale=vi" />
 </a>
@@ -22,3 +23,4 @@ Mình là Trần Hoàng Long, sinh viên Công nghệ Thông tin tại Đại h�
 <a href="https://github.com/trhlow/TraVinh-Shelter">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=trhlow&repo=TraVinh-Shelter&theme=tokyonight&locale=vi" />
 </a>
+<!-- showcase:end -->
