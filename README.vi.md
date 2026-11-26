@@ -1,7 +1,7 @@
 [English](https://github.com/trhlow) · **Tiếng Việt**
 
 ### CHÀO MỪNG ĐẾN VỚI TRANG CỦA MÌNH 👋
-Mình là Trần Hoàng Long, sinh viên Công nghệ Thông tin tại Đại học Trà Vinh và là lập trình viên backend, chủ yếu làm với Java và Spring Boot. Mình quan tâm đến các chủ đề: hệ thống backend, xử lý đồng thời, ứng dụng thời gian thực và DevOps.
+Mình là Trần Hoàng Long, sinh viên Công nghệ Thông tin tại Đại học Trà Vinh và là lập trình viên backend, chủ yếu làm với Java và Spring Boot. Mình quan tâm đến các chủ đề: hệ thống backend, xử lý đồng thời, ứng dụng thời gian thực, DevOps và công cụ cho AI agent.
 
 ## 📫 Liên hệ với mình:
 
@@ -12,10 +12,13 @@ Mình là Trần Hoàng Long, sinh viên Công nghệ Thông tin tại Đại h�
 <a href="https://github.com/trhlow/TVU-Event-Ticket">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=trhlow&repo=TVU-Event-Ticket&theme=tokyonight&locale=vi" />
 </a>
+<a href="https://github.com/trhlow/human-docs">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=trhlow&repo=human-docs&theme=tokyonight&locale=vi" />
+</a>
+
 <a href="https://github.com/trhlow/cambridge-exam-prep">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=trhlow&repo=cambridge-exam-prep&theme=tokyonight&locale=vi" />
 </a>
-
 <a href="https://github.com/trhlow/TraVinh-Shelter">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=trhlow&repo=TraVinh-Shelter&theme=tokyonight&locale=vi" />
 </a>
